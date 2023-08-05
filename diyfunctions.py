@@ -1,10 +1,16 @@
-#Define your function. after "to", optional default argument of "world"
+#Define the main part of the code
+def main():
+    #Ask user their name. Remove whitespace from string. Capitalise users name
+    name = input("What's your name?: ")
+    #use the function
+    hello(name)
+
+
+
+#Define your function. after "to" parameter, optional default value of "world"
 def hello(to = "world"):
     #Define what your function does
     print("hello,", to)
-#Hello function with no argument, will use the default in line 1
-hello()
-#Ask user their name. Remove whitespace from string. Capitalise users name
-name = input("What's your name?: ")
-#use the function
-hello(name)
+
+#Call main at the end of the file
+main()
