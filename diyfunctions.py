@@ -1,6 +1,6 @@
-#Define the main part of the code
+#Define the main part of the code/function
 def main():
-    #Ask user their name. Remove whitespace from string. Capitalise users name
+    #prompt for input
     name = input("What's your name?: ")
     #use the function
     hello(name)
