@@ -1,8 +1,7 @@
 #!/bin/python3
 
 def main():
-    entry = input( "What is your name? " )
-    name = entry.title()
+    name = input( "What is your name? " ).title().strip()
     print("Hello " + name, end=". ")
     print("How's the weather today?")
 
