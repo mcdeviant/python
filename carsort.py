@@ -1,9 +1,9 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 def main():
     car_info = { 
-      "colour": str(input("What colour is your car?: ")),
-      } #store user input in variable car_info
+      "colour": str(input("What colour is your car?: ")), #store user colour input in variable car_info
+      "model": str(input("What model is your car?: "))}
 
     if is_dark(car_info["colour"]): #pass the variable to is_dark function
         print(f"Insurance will be higher for your {car_info['colour']} car.")
