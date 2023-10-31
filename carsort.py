@@ -3,10 +3,10 @@
 def main(): 
     
     car_info = {
-        "colour": str(input("What colour is your car?: ")), #store  colour input in variable car_info
-        "make": str(input("What make is your car?: ")), #Store make input in variable car_info["colour"]- and now car_info is a tuple
+        "colour": str(input("What colour is your car?: ")), #Store key "colour" and value (user input) in dictionary "car_info".
+        "make": str(input("What make is your car?: ")), #Store key "make" and value (user input) in dictionary "car_info".
         }
-    car_info["model"] = str(input(f"What model is your {car_info['make']}?: "))
+    car_info["model"] = str(input(f"What model is your {car_info['make']}?: ")) #References the 'make', so I had to complete/close the previous dictionary assignments.
 
     if is_dark(car_info["colour"]): #pass the variable to is_dark function
         print(f"Insurance will be higher for your {car_info['colour']}, {car_info['make']}, {car_info['model']}.")
