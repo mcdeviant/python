@@ -1,6 +1,10 @@
 #!/usr/bin/python3
+
 #I wasn't happy with my function understanding, and wanted to revise it, so made this to practice. 
-#If you enter a colour with "dark" or "black", it will report higher interest. 
+#It's like an insurance filter. If you enter a colour with "dark" or "black", or a fancy make of car from the list,
+# it will warn of higher interest. 
+
+
 def main(): 
     
     car_info = {
