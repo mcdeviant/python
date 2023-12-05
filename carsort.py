@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-
+#Not a guided lesson, just practicing. 
 def main(): 
     
     car_info = {
         "colour": str(input("What colour is your car?: ")), #Store key "colour" and value (user input) in dictionary "car_info".
-        "make": str(input("What make is your car?: ")), #Store key "make" and value (user input) in dictionary "car_info".
+        "make": str(input("What make is your car?: ")), #Store key "make" and value (user input) in dictionary "car_info". Doesn't do anything, just an example/test.
         }
     car_info["model"] = str(input(f"What model is your {car_info['make']}?: ")) #References the 'make', so I had to complete/close the previous dictionary assignments.
 
@@ -18,3 +18,4 @@ def is_dark(colour): # set is_dark funnction with (colour) parameter.
     return any(dark_colour in colour.lower() for dark_colour in dark_colours) #convert user input to lower case.
 
 main()
+
