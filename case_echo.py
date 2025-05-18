@@ -1,4 +1,5 @@
-#!/bin/python
+#!/usr/bin/python3
+
 def main():
     x = input()
     lower = x.lower()

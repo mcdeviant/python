@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 
 def main():
     name = input( "What is your name? " ).title().strip()

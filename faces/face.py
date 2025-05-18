@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python3
 
 #Creates a function to convert emoticons to emojis
 def convert(input_string):

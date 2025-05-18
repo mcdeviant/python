@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python3
 
 def main():
     miles = miles_input(input("Enter number of miles to convert: "))

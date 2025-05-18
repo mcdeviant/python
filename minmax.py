@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def find_max(lst):
     return max(lst)
 
