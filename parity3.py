@@ -8,13 +8,7 @@ def main():
         print("Odd")
 
 def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
-    #Or, delete the lines above and use this:
-    #return n % 2 == 0
-    
+    return n % 2 == 0
 
 
 main()

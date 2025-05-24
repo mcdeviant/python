@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #Define the main part of the code/function
 def main():
     #prompt for input

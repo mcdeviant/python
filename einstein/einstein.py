@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python3
 
 def main():
     #Integer to be entered for mass
@@ -7,3 +7,5 @@ def main():
     print(result)
 
 main()
+
+#test

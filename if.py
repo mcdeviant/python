@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 x = int(input("What is x? "))
 y = int(input("What is y? "))
 

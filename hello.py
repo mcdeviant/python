@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #Ask user their name. Remove whitespace from string. Capitalise users name
 name = input("What's your name?: ").strip().title()
 #Split users name into first/last names
